@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: roboto, sans-serif;
+    min-height: 1000px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nova Round', cursive;
+}
+.wrap{
+    background-position: center;
+    background-size: cover;
+    min-height: 115vh;
+    overflow: hidden;
+}
+.slide1, .slide2, .slide3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.slide1 {
+    background: url(../img/foto1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 115vh;
+    animation: fade 8s infinite;
+    -webkit-animation: fade 8s infinite;
+}
+.slide2 {
+    background: url(../img/foto2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 115vh;
+    animation: fade2 8s infinite;
+    -webkit-animation: fade2 8s infinite;
+}
+.slide3 {
+    background: url(../img/foto3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 115vh;
+    animation: fade3 8s infinite;
+    -webkit-animation: fade3 8s infinite;
+}
+@keyframes fade{
+    0%{opacity: 1}
+    33.333% {opacity: 0}
+    66.666% {opacity: 0}
+    100% {opacity: 1}
+}
+@keyframes fade2{
+    0%{opacity: 0}
+    33.333% {opacity: 1}
+    66.666% {opacity: 0}
+    100% {opacity: 0}
+}
+@keyframes fade3{
+    0%{opacity: 0}
+    33.333% {opacity: 0}
+    66.666% {opacity: 1}
+    100% {opacity: 0}
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: -140px;
+    color: #fff;
+    opacity: 1;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 80px;
+    background: linear-gradient(to top, transparent, rgba(0,0,0,0.6));
+}
+.slide1 .canvas{
+    max-width: 55%;
+    padding: 200px 80px 0;
+    color: #fff;
+}
+.slide1 h1{
+    font-size: 48px;
+
+}
+.slide1 p{
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.slide1 .btn-group{ 
+    margin-top: 45px;
+}
+.slide1 a{
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+}
+.slide1 a.color1{
+    background-color: #ffc107;
+}
+header .logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    float: left;
+}
+header .menu{
+    float: right;
+    margin-top: 5px;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.content{
+    max-width: 55%;
+    padding: 200px 80px 0;
+    color: #fff;
+}
+.content h1{
+    font-size: 48px;
+}
+.content p{
+    font-size: 20px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+.content .btn-group{ 
+    margin-top: 45px;
+}
+.content a{
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+}
+.content a.color1{
+    background-color: #ffc107;
+}
+.our-partners{
+    padding: 0 80px;
+    position: relative;
+}
+.our-partners h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.our-partners hr{
+    border: none;
+    height: 4px;
+    width: 100px;
+    background-color: orange;
+}
+.our-partners-inner{
+    margin-top: 50px;
+}
+.our-partners-inner a{
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #cacaca;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 #cacaca;
+}
+.our-partners-inner img{
+    width: 100%;
+}
+footer{
+    padding: 20px;
+    background-color: #2c2a2a;
+    color: white;
+    text-align: center;
+    font-style:unset;
+    font-size: 15px;
+}
+.footer1{
+    width: 100%;
+    height: 10%;
+    padding: 5px;
+    background-color: #2c2a2a;
+    color: white;
+}
+.pay {
+    float: left;
+    padding-right: 5%;
+}
+.pay1 {
+    float: left;
+    padding-right: 5%;
+    width: 15%;
+}
+.diskon {
+    float: right;
+    padding-right: 5%;
+}
+p{
+    font-size: 18px;
+    padding: 25px 0;
+    font-weight: 300;
+}
+#hcontent{
+    font-family: sans-serif;
+    font-size: 20px;
+}
